@@ -1,0 +1,42 @@
+.mainPage {
+    background-color: rgb(121, 90, 206);
+    background-image: url(/images/bg-desktop.svg);
+    height: 100%;
+}
+
+.containFlex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container2{
+    width: 22vw;
+}
+
+h1 {
+    color: azure;
+    font-size: 3vh;
+}
+
+p { color: azure;}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  footer {
+      background-color: gray;
+  }
+
+  button {
+      height: 5vh;
+      width: 9vw;
+      border-radius: 50px;
+      color: rgb(121, 90, 206);
+      font-size: 1.8vh;
+      cursor: pointer;
+  }
