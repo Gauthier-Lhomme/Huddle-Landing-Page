@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    text-decoration:none;
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.mainPage {
+    background-color: rgb(121, 90, 206);
+    background-image: url(/images/bg-desktop.svg);
+    height: 98vh;
+}
+
+.containFlex {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.container1{
+   width: 20%;
+   padding-top: 10vh;
+}
+.container2{
+    width: 30%;
+    padding-top: 13vh;
+}
+
+.textDescription{padding-top: 3vh;
+font-size: 2.1vh;}
+
+h1 {
+    color: azure;
+    font-style: bold;
+    font-size: 4vh;
+    font-family: 'Open Sans';
+}
+
+p { color: azure;
+    font-family: 'Poppins';}
+
+.logo{
+    padding-top: 5vh;
+    padding-left: 5vw;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  footer {
+      background-color: gray;
+  }
+
+  button {
+      height: 5vh;
+      width: 9vw;
+      border-radius: 50px;
+      color: rgb(121, 90, 206);
+      font-size: 1.8vh;
+      cursor: pointer;
+      font-family: 'Poppins';
+      margin-top: 4vh;
+      margin-left: 8vw;
+  }
+
+  button:hover{
+    background-color: rgb(90, 58, 177) ;
+    color: azure;
+    transition: 0.4s;
+  }
